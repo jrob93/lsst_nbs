@@ -1,0 +1,25 @@
+blocks:
+- NOT b_is_solar_system
+catalog_filename: null
+content:
+- diaSource.diaSourceId
+- diaSource.midpointMjdTai
+- diaSource.ra
+- diaSource.dec
+- diaSource.trailFlux
+- diaSource.trailLength
+- diaSource.trailFluxErr
+- diaSource.trailAngle
+- diaSource.trailAngleErr
+- diaSource.raErr
+- diaSource.decErr
+- diaSource.trailLengthErr
+- diaSource.visit
+- diaSource.detector
+- diaSource.band
+dates:
+  startdate: '2026-01-01'
+  stopdate: '2026-08-06'
+extra_cond:
+- diasource.trailLength>2
+filters: []
